@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(50, 50, 50);
+    align-items: center;
+}
+.surveyform{
+    text-align: center;
+}
+.surveyform h1{
+    color: green;
+}
+.surveyform p{
+    color:white
+}
+.textfields p{
+color:white
+}
+.name{
+    color:white
+}
+.email{
+    color:white
+}
+.age{
+    color:white;
+    border-bottom: solid white 2px;
+    width:3%;
+    margin-top: 10px;
+}
+.Role p{
+    color:white;
+}
+/* #optionselect{
+    color:white;
+} */
+.choice p{
+    color:white;
+}
+.definetly{
+    color:white
+}
