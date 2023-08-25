@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Text Example</title>
+</head>
+<body>
+  <input type="text" id="textInput" placeholder="Enter text">
+  <button id="addButton">Add</button>
+  <div id="outputContainer"></div>
+
+  <script>
+    const textInput = document.getElementById('textInput');
+    const addButton = document.getElementById('addButton');
+    const outputContainer = document.getElementById('outputContainer');
+
+    addButton.addEventListener('click', () => {
+      const newText = textInput.value;
+      if (newText.trim() !== '') {
+        const newPTag = document.createElement('p');
+        newPTag.textContent = newText;
+        outputContainer.appendChild(newPTag);
+        textInput.value = '';
+      }
+    });
+  </script>
+</body>
+</html>
