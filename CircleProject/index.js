@@ -21,7 +21,6 @@ var color = [
   cColor.addEventListener("click", changeColor);
   
   function changeColor() {
-  //   console.log(index);
     if (index === color.length) {
       index = 0;
     }
